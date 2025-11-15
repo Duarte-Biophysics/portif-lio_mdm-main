@@ -1,0 +1,79 @@
+header {
+
+    background: linear-gradient(to right, rgb(206, 206, 255), white)
+    
+
+}
+
+body {
+
+    background-image: rgb(255, 255, 255);
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgb(206, 206, 255), white)
+
+}
+
+.fundofundado {
+    background-image: url("imagens/fundo.png");
+    width: 100% ;
+    height: 300px ;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+p {
+
+    font-size: 25px;
+
+}
+
+.cabeçalho {
+
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+
+}
+
+.introdução{
+    margin: 2%;
+}
+
+h1 {
+
+    padding-left: 2%;
+    padding-top: 2%;
+
+}
+
+.moldura {
+
+    width: 300px ;
+    height: 200px ;
+    border-radius: 10%;
+
+}
+
+.texto{
+    margin: 2%;
+
+}
+
+.icone {
+
+    width: 60px ;
+    height: 50px ;
+    margin-top: 20px;
+    margin-left: 18px;
+    
+
+}
+
+.recipiente {
+
+    display: flex;
+
+}
