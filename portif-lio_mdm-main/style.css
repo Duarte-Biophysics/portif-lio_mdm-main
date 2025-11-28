@@ -1,79 +1,48 @@
-header {
-
-    background: linear-gradient(to right, rgb(206, 206, 255), white)
-    
-
-}
-
 body {
-
-    background-image: rgb(255, 255, 255);
-    margin: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, rgb(206, 206, 255), white)
-
+    background-color: #49325f;
 }
 
-.fundofundado {
-    background-image: url("imagens/fundo.png");
-    width: 100% ;
-    height: 300px ;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-p {
-
-    font-size: 25px;
-
-}
-
-.cabeçalho {
-
-    padding-left: 3%;
-    padding-top: 2%;
-    padding-bottom: 1%;
-
-}
-
-.introdução{
-    margin: 2%;
-}
-
-h1 {
-
-    padding-left: 2%;
-    padding-top: 2%;
-
-}
-
-.moldura {
-
-    width: 300px ;
-    height: 200px ;
+img.rounded {
     border-radius: 10%;
-
 }
 
-.texto{
-    margin: 2%;
-
+.hero-header {
+    background: linear-gradient(to right, rgb(206,206,255), rgba(255,255,255,0.9));
+    border-radius: 10px;
+    width: fit-content;
 }
 
-.icone {
-
-    width: 60px ;
-    height: 50px ;
-    margin-top: 20px;
-    margin-left: 18px;
-    
-
+.hero-header-text {
+    font-size: 1.5rem;
 }
 
-.recipiente {
+.header-aligned {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
 
-    display: flex;
+.glass-blur {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); 
+    background-color: rgba(255, 255, 255, 0.1); 
+}
 
+.hero-section {
+    background: linear-gradient(to bottom, #1d0f38, #49325f);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-image {
+    max-width: 300px;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.header-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
 }
