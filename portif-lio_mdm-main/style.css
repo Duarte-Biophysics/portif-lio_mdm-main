@@ -3,20 +3,6 @@ body {
     background-color: #49325f;
 }
 
-img.rounded {
-    border-radius: 10%;
-}
-
-.hero-header {
-    background: linear-gradient(to right, rgb(206,206,255), rgba(255,255,255,0.9));
-    border-radius: 10px;
-    width: fit-content;
-}
-
-.hero-header-text {
-    font-size: 1.5rem;
-}
-
 .header-aligned {
     margin-left: auto;
     margin-right: auto;
@@ -33,12 +19,6 @@ img.rounded {
     background: linear-gradient(to bottom, #1d0f38, #49325f);
     background-size: cover;
     background-position: center;
-}
-
-.hero-image {
-    max-width: 300px;
-    aspect-ratio: 1;
-    object-fit: cover;
 }
 
 .header-icone {
